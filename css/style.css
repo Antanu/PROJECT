@@ -19,7 +19,7 @@ nav{
 	position:  absolute;
 }
 nav ul{
-	
+	width: 100%;
 margin-left: 62px;
 	
 position:  absolute;
@@ -41,7 +41,7 @@ nav ul li a{
 	list-style-type: none;
 	font-size: 16px;
 	text-decoration: none;
-	color: #ffffff;
+	color: #d2d2d2;
 	margin-left: 52px;
 	top: -6px;
 	position:  relative;
@@ -52,14 +52,23 @@ ul li h1 img{
     left: -3px;
 }
 .text h1 {
+	font-family: bebasneuelight;
 	color: #a5a7a7;
 	text-align: center;
 	position:  relative;
 	top: 242px;
 }
 .text h2{
+	font-family: bebasneueregular;
 	color: #d0d0d0;
 	text-align: center;
 	position: relative;
 	top: 286px;
+}
+
+.container a:hover {
+	font-size: 18px;
+	color: white;
+	text-decoration: underline;
+	font-weight:bold;
 }
