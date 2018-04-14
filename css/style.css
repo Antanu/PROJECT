@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 	font-family: verdana;
 	max-width: 100%;
 }
@@ -78,7 +78,7 @@ ul li h1 img{
 .search {
 	float: left;
 	width: 20%;
-	height: 800px;
+	height: 700px;
 	padding: 50px;
 	border: 1px solid red;
 	box-sizing: border-box;
@@ -94,7 +94,7 @@ ul li h1 img{
 	padding: 17px;
 }
 
-.heading{position: relative;max-width: 80%;left: 312px;}	
+.heading{position: relative;max-width: 80%;left: 310px;}	
 
 .heading h1{
 	border-bottom: 3px solid #335c8c;
@@ -106,6 +106,7 @@ ul li h1 img{
 .main{
 	position: absolute;
 	width:  100%;
+	/* height: 100px; */
 }
 .hotico img{
 	box-shadow: 1px 1px 8px 1px #888888;
@@ -113,6 +114,67 @@ ul li h1 img{
 	top: -58%;
 	left: -3%;
 }
-.heading2 h1{
+.heading2 h1{position: absolute;top: 370px;font-size: 35px;border-bottom: 3px solid #335c8c;width: 39%;left: 303px;color: #335c8c;}
+.heading3 h1{
 	
+position: absolute;
+	
+width: 40%;
+	
+left: 59%;
+	
+top: 370px;
+	
+font-size:  35px;
+	
+border-bottom: 3px solid #335c8c;
+	
+/* text-align: center; */
+	
+color: #335c8c;
+}
+
+.content2 {
+
+position: relative;
+
+max-width: 100%;
+}
+
+.coin{
+	
+position: relative;
+	
+top: -307px;
+	
+width: 40%;
+	
+left: 331px;
+	
+margin-bottom: 15px;
+}
+.coin img{
+	
+width: 90%;
+}
+
+.content3 {
+
+position: relative;
+}
+.coin2{
+
+position:  relative;
+
+width: 40%;
+
+top: -511px;
+
+left: 993px;
+
+margin-bottom: 15px;
+}
+.coin2 img{
+	
+width: 90%;
 }
